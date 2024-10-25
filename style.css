@@ -26,6 +26,7 @@ header {
     right bottom;
   background-repeat: no-repeat;
   margin-bottom: 20px;
+  height: 760px;
 }
 .name {
   color: var(--Dark-01, #181818);
@@ -122,6 +123,9 @@ ul li {
   width: 50%;
 }
 
+.hero-left i{
+    margin-right:8px ;
+}
 .hero-left a {
   text-align: center;
   font-family: "Open Sans";
@@ -139,6 +143,6 @@ ul li {
 }
 
 .hero-right img {
-  margin-left: -0px;
-  margin-top: 40px;
+ 
+  margin-top: 2px;
 }
