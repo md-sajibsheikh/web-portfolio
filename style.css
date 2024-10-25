@@ -5,28 +5,39 @@
   font-family: "Open Sans";
 }
 
+header{
+  
+flex-shrink: 0;
+    background-image: url(./images/developer.png),url(./images/header_bg.png);
+    background-position: top left, right bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+  
+}
 .name {
- color: var(--Dark-01, #181818);
-font-family: "Open Sans";
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin-left: 80px;
+  color: var(--Dark-01, #181818);
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-left: 120px;
+  
 }
 .name span {
- color: #FD6E0A;
-font-family: "Open Sans";
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;}
+  color: #fd6e0a;
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 ul {
   display: flex;
@@ -34,15 +45,15 @@ ul {
   gap: 50px;
   list-style: none;
 }
-ul li{
-    color: var(--Dark-02, #474747);
-font-family: "Open Sans";
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+ul li {
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-li a {
+.btn {
   width: 130px;
   height: 54px;
   flex-shrink: 0;
@@ -52,4 +63,75 @@ li a {
   padding: 8px;
   color: white;
   font-family: "Open Sans";
+}
+.btn1 {
+  background-color: white;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.hero-left h4 {
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.hero-left h1 {
+  color: var(--Dark-01, #181818);
+  font-family: "Open Sans";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-left p {
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 585px;
+  margin-bottom: 30px;
+}
+
+.hero-left{
+    margin-top: 150px;
+    width: 50%;
+  
+}
+
+
+.hero-left a {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 16px;
+  border-radius: 5px;
+}
+.hero-right{
+    width: 50%;
+    margin-left: 100px;
+    margin: 0 auto;
+
+}
+
+.hero-right img{
+    margin-left: -0px;
+    margin-top: 40px;
 }
