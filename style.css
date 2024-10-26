@@ -27,6 +27,7 @@ header {
   background-repeat: no-repeat;
   margin-bottom: 20px;
   height: 760px;
+  width: 100%;
 }
 .name {
   color: var(--Dark-01, #181818);
@@ -89,6 +90,7 @@ ul a{
   justify-content: space-between;
   margin-left: 120px;
   margin-top: 30px;
+  margin: o auto;
 }
 
 .hero-left h4 {
@@ -139,11 +141,12 @@ ul a{
 }
 .hero-right {
   width: 50%;
-  margin-left: 100px;
+  margin-left: 90px;
   margin: 0 auto;
 }
 
 .hero-right img {
  
   margin-top: 4px;
+  margin-left: -15px;
 }
