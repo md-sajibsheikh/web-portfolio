@@ -342,7 +342,6 @@ ul a {
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 50px;
-  
 }
 
 .resume-left {
@@ -423,7 +422,97 @@ ul a {
   margin-top: 20px;
   margin-left: -5px;
 }
-.btn2{
+.btn2 {
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 50px;
+}
+/* footer */
+
+.footer {
+  margin-top: 10px;
+  padding: 100px;
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  height: 780px;
+  flex-shrink: 0;
+  background: #fff8f3;
+}
+.footer-left {
+  width: 49%;
+
+  padding-left: 10px;
+}
+.footer-left h2 {
+  color: var(--Dark-01, #181818);
+  text-align: start;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-left p {
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 460px;
+}
+.footer-left img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.footer-right {
+  width: 45%;
+  margin-left: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+
+.footer-right input {
+
+  width: 461px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--White-Color, #fff);
+  border: 0;
+  padding-left: 10px;
+}
+
+.footer-right textarea {
+  width: 461px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 0;
+  background: var(--White-Color, #fff);
+  padding-left: 10px;
+  padding: 10px;
+}
+
+.footer button {
+  border: 0;
+  font-size: 20px;
+}
+
+.btn5 {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fd6e0a;
+  color: white;
+  border-radius: 10px;
 }
