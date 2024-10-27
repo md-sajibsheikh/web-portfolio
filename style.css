@@ -255,7 +255,7 @@ ul a {
 
 .item {
   width: 1140px;
-  height: 550px;
+  height: 500px;
   flex-shrink: 0;
   margin: 0 auto;
   padding-top: 3%;
@@ -337,16 +337,93 @@ ul a {
 .resume {
   display: flex;
   width: 1140px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: start;
-  margin:0 auto;
-  border: 2px solid red;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  
 }
 
 .resume-left {
   width: 45%;
 }
+.resume-left h1 {
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 30px;
+  padding-top: 10px;
+  text-align: start;
+}
+.resume-left h3 {
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 25px;
+  padding-top: 10px;
+}
+.resume-left h4 {
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 20px;
+  padding-top: 10px;
+}
 
+.resume-left p {
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 16px;
+
+  padding-top: 10px;
+
+  width: 399px;
+}
 .resume-right {
   width: 45%;
+}
+
+.resume-right h1 {
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  padding-top: 10px;
+
+  font-size: 30px;
+  font-style: normal;
+
+  text-align: start;
+}
+.resume-right h3 {
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 25px;
+
+  padding-top: 10px;
+}
+.resume-right h4 {
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 20px;
+
+  padding-top: 10px;
+}
+
+.resume-right p {
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 16px;
+
+  padding-top: 10px;
+  width: 399px;
+}
+
+.hr {
+  width: 520px;
+  height: 1px;
+  background: #d1d1d1;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-left: -5px;
+}
+.btn2{
+  text-align: center;
+  margin: 0 auto;
 }
