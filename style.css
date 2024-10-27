@@ -435,8 +435,9 @@ ul a {
   width: 1140px;
   margin: 0 auto;
   display: flex;
-  height: 780px;
+  height: 570px;
   flex-shrink: 0;
+  margin-bottom: 50px;
   background: #fff8f3;
 }
 .footer-left {
@@ -479,11 +480,9 @@ ul a {
   display: flex;
   flex-direction: column;
   gap: 15px;
-
 }
 
 .footer-right input {
-
   width: 461px;
   height: 54px;
   flex-shrink: 0;
@@ -515,4 +514,5 @@ ul a {
   background-color: #fd6e0a;
   color: white;
   border-radius: 10px;
+  cursor: pointer;
 }
